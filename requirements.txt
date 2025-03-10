@@ -1,0 +1,37 @@
+# Needed for fastAPI
+setuptools-rust
+
+# API
+fastapi~=0.115.6
+
+# API start stuff
+uvicorn~=0.34.0
+
+# For fasAPI communication
+python-multipart
+
+# JWT authentication and session token stuff
+PyJWT~=2.10.1
+python-jose
+
+# Encryption/decryption stuff
+bcrypt~=4.2.1
+
+# Endpoint schemas
+pydantic~=2.10.5
+pydantic-settings
+
+# Direct calls to Keycloat to validate user requests
+requests~=2.32.3
+
+# Testing stuff
+pytest~=8.3.4
+httpx
+
+# Load environment variables (for api settings)
+python-dotenv~=1.0.1
+
+# Database stuff
+pymongo
+motor~=3.6.1
+odmantic~=1.0.2
